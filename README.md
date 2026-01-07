@@ -17,8 +17,8 @@ This project benchmarks different algorithms for the **Maximum Subarray Problem*
 | `benchmarking.h` | Header with function declarations |
 | `.gitignore` | Ignore compiled outputs |
 
-## Compile & Run
 
-```bash
-gcc CLRS_Max_Subarray.c Max_Subarray_Brute_Force.c time.c -o benchmark
-./benchmark
+## Results / Insights
+
+- Brute force is faster for very small arrays, recursive is faster for larger arrays.  
+- Current timing does not give concrete output due to poor resolution of `clock()`; will fix in future updates.
