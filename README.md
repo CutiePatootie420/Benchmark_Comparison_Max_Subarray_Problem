@@ -1,6 +1,6 @@
 # Max Subarray Benchmark
 
-This project benchmarks different algorithms for the **Maximum Subarray Problem**.
+This project benchmarks different algorithms for the **Maximum Subarray Problem** and outputs the input size for which **divide-and-conquer (recursive)** starts outperforming **brute force**.
 
 ## Overview
 
